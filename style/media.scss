@@ -1,0 +1,98 @@
+@media screen and (max-width: 1025px) {
+  .header__mid {
+    height: 300px;
+    background-size: cover;
+  }
+
+  .header__content {
+    padding-top: 22px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .special-goods__list {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+  }
+ 
+  .special-bottom__bonus {
+    img {
+      display: none;
+    }
+  }
+
+  .footer__top {
+    height: 140px;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .address {
+    padding-left: 0;
+  }
+
+  .footer__autority {
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service__list {
+    flex-direction: column;
+  }
+
+  .header__top {
+    flex-direction: column;
+  }
+
+  .furniture__list {
+    flex-direction: column;
+  }
+
+  .header__mid {
+    background-position: -130% 0;
+    background-size: cover;
+  }
+
+  .header__content {
+    row-gap: 20px;
+  }
+
+  .special-bottom {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .special-bottom__bonus {
+    width: 100%;
+  }
+
+  .special-bottom__invite {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__phone {
+    flex-direction: column;
+  }
+
+  .special-goods__header {
+    img {
+      display: none;
+    }
+  }
+
+  .footer__top {
+    height: 180px;
+  }
+
+  .footer__phone {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
